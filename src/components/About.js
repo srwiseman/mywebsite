@@ -11,7 +11,7 @@ class About extends Component {
 
 
     return (
-    <div>
+    <div className="about">
       <FadeIn>
       <div className="content">
       <FadeIn>

@@ -4,6 +4,12 @@ import './App.css';
 import {slide as Menu} from 'react-burger-menu'
 import FadeIn from 'react-fade-in'
 import About from './components/About'
+import {
+  HashRouter,
+  Route,
+  IndexRoute,
+  Link
+} from 'react-router-dom';
 
 class App extends Component {
   constructor (props) {
@@ -34,12 +40,20 @@ class App extends Component {
 
     return (
       <div className="App">
+      <HashRouter>
+      <div className="routerDiv">
       <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
-        <a onClick={() => this.closeMenu()} id="home" className="menu-item" href="#"><i class="fas fa-question-circle"></i><span>About</span></a>
+        <Link to="/about" onClick={() => this.closeMenu()} id="home" className="menu-item"><i class="fas fa-question-circle"></i><span>About</span></Link>
         <a id="about" className="menu-item" href="/about"><i class="fas fa-list-alt"></i><span>Resume</span></a>
         <a id="contact" className="menu-item" href="/contact"><i class="fas fa-at"></i><span>Contact</span></a>
       </Menu>
-      <About/>
+      
+      <div>
+        <Route exact path="/" component={About} />
+        <Route path="/about" component={About} />
+      </div>
+      </div>
+      </HashRouter>
       </div>
     );
   }

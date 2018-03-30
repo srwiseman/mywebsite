@@ -4,6 +4,7 @@ import './App.css';
 import {slide as Menu} from 'react-burger-menu'
 import FadeIn from 'react-fade-in'
 import About from './components/About'
+import Resume from './components/Resume'
 import {
   HashRouter,
   Route,
@@ -43,14 +44,16 @@ class App extends Component {
       <HashRouter>
       <div className="routerDiv">
       <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
-        <Link to="/about" onClick={() => this.closeMenu()} id="home" className="menu-item"><i class="fas fa-question-circle"></i><span>About</span></Link>
-        <a id="about" className="menu-item" href="/about"><i class="fas fa-list-alt"></i><span>Resume</span></a>
+        <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i class="fas fa-question-circle"></i><span>About</span></Link>
+        <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i class="fas fa-list-alt"></i><span>Resume</span></Link>
         <a id="contact" className="menu-item" href="/contact"><i class="fas fa-at"></i><span>Contact</span></a>
       </Menu>
       
       <div>
         <Route exact path="/" component={About} />
         <Route path="/about" component={About} />
+        <Route path="/resume" component={Resume} />
+
       </div>
       </div>
       </HashRouter>

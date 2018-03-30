@@ -18,6 +18,7 @@ h1 {
 .routerDiv {
 	position: fixed;
 	top: 0;
+	width: 100%;
 }
 
 .me-pic {

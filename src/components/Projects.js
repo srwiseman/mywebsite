@@ -23,8 +23,8 @@ class Projects extends Component {
           <p><strong>Technologies used: </strong> Golang, Javascript, ReactJS, JSON, HTML, CSS</p>
           <p><h2>This Website</h2></p>
           <a href='https://github.com/srwiseman/mywebsite'><strong><i class="fab fa-github-square"></i> GitHub Link</strong></a>
-          <p>A basic website written in ReactJS. It's a single page web application. Each view is actually a different react component. It's controlled by a hash router so that everythign can be
-          bundeled by webpack and served is static Javascript, HTML, and CSS.</p>
+          <p>A basic website written in ReactJS. It's a single page web application. Each view is actually a different react component. It's controlled by a hash router so that everything can be
+          bundeled by webpack and served as static Javascript, HTML, and CSS.</p>
           <p><strong>Technologies used: </strong> Javascript, ReactJS, HTML, CSS, webpack</p>
       </FadeIn>
       </div>

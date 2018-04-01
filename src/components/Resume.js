@@ -25,7 +25,7 @@ class Resume extends Component {
           <h2><i class="fas fa-graduation-cap"></i> School</h2>
           <p><strong>Memorial University of Newfoundland - 2007 to 2013</strong>
           <li>Bachelor of Computer Engineering</li>
-          <li>Completed six work terms</li>
+          <li>Co-op program (six workterms)</li>
           </p>
       </FadeIn>
       </div>

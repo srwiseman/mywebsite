@@ -16,7 +16,6 @@ h1 {
 }
 
 .routerDiv {
-	position: fixed;
 	top: 0;
 	width: 100%;
 }
@@ -75,6 +74,7 @@ h1 {
 
 /* Styling of overlay */
 .bm-overlay {
+  top: 0;
   background: rgba(0, 0, 0, 0.3);
   height: 100vh;
 }
@@ -100,4 +100,8 @@ a:focus {
 #reveal .bm-menu {
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+}
+
+.bm-menu-wrap{
+	top: 0;
 }

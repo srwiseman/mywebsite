@@ -19,6 +19,7 @@ class Contact extends Component {
           <p><strong><i class="fas fa-envelope"></i> Email: </strong>: <a href='mailto:swiseman@gmail.com'>swiseman@gmail.com</a></p>
           <p><strong><i class="fab fa-instagram"></i> Instagram: </strong><a href='https://www.instagram.com/stephenrwiseman/'>stephenrwiseman</a></p>
           <p><strong><i class="fab fa-git-square"></i> GitHub: </strong><a href='https://github.com/srwiseman'>srwiseman</a></p>
+          <p><strong><i class="fab fa-linkedin"></i> LinkedIn: </strong><a href='https://www.linkedin.com/in/stephen-wiseman-b9120866/'>Stephen Wiseman</a></p>
       </FadeIn>
       </div>
       </FadeIn>

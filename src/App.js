@@ -43,7 +43,7 @@ class App extends Component {
       <div className="App">
       <HashRouter>
       <div className="routerDiv">
-      <Menu isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
+      <Menu width={ '40vh' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
         <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i class="fas fa-question-circle"></i><span>About</span></Link>
         <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i class="fas fa-list-alt"></i><span>Resume</span></Link>
         <Link to="/projects"  onClick={() => this.closeMenu()} id="projects" className="menu-item" href="/about"><i class="fas fa-wrench"></i><span>Projects</span></Link>

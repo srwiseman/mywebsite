@@ -31,8 +31,8 @@ h1 {
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
+  width: 7vh;
+  height: 7vh;
   left: 36px;
   top: 36px;
 }
@@ -57,7 +57,7 @@ h1 {
 .bm-menu {
   background: #373a47;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: 2vh;
   overflow: hidden;
 }
 

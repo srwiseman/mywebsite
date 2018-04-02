@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {slide as Menu} from 'react-burger-menu'
-import FadeIn from 'react-fade-in'
 import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
@@ -8,7 +7,6 @@ import Contact from './components/Contact'
 import {
   HashRouter,
   Route,
-  IndexRoute,
   Link
 } from 'react-router-dom';
 
@@ -25,7 +23,6 @@ class App extends Component {
   }
 
   closeMenu () {
-    console.log("closing...")
     this.setState({menuOpen: false})
   }
 
@@ -44,10 +41,10 @@ class App extends Component {
       <HashRouter>
       <div className="routerDiv">
       <Menu width={ '40vh' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
-        <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i class="fas fa-question-circle"></i><span>About</span></Link>
-        <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i class="fas fa-list-alt"></i><span>Resume</span></Link>
+        <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i className="fas fa-question-circle"></i><span>About</span></Link>
+        <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i className="fas fa-list-alt"></i><span>Resume</span></Link>
         <Link to="/projects"  onClick={() => this.closeMenu()} id="projects" className="menu-item" href="/about"><i class="fas fa-wrench"></i><span>Projects</span></Link>
-        <Link to="/contact"  onClick={() => this.closeMenu()} id="contact" className="menu-item" href="/about"><i class="fas fa-at"></i><span>Contact</span></Link>
+        <Link to="/contact"  onClick={() => this.closeMenu()} id="contact" className="menu-item" href="/about"><i className="fas fa-at"></i><span>Contact</span></Link>
       </Menu>
       
       <div>

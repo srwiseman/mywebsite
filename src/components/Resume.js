@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import FadeIn from 'react-fade-in'
 
 class Resume extends Component {
-  constructor (props) {
-    super(props)
-  }
 
 
   render() {

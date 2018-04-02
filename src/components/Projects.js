@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import FadeIn from 'react-fade-in'
 
 class Projects extends Component {
-  constructor (props) {
-    super(props)
-  }
 
 
   render() {

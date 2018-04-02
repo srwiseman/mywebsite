@@ -26,6 +26,10 @@ class Projects extends Component {
           <p>A basic website written in ReactJS. It's a single page web application. Each view is actually a different react component. It's controlled by a hash router so that everything can be
           bundeled by webpack and served as static Javascript, HTML, and CSS.</p>
           <p><strong>Technologies used: </strong> Javascript, ReactJS, HTML, CSS, webpack</p>
+          <p><h2>Triplix</h2></p>
+          <p>A game I published on the Apple App Store and the Google Play Store. It's a basic puzzle game written in C#, using the Unity engine. It was featured on the popular site mobile site
+           App Gratis and at one point had 10k active players.</p>
+          <p><strong>Technologies used: </strong> C#, Unity</p>
       </FadeIn>
       </div>
       </FadeIn>

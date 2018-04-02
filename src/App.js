@@ -16,7 +16,7 @@ class App extends Component {
     super(props)
     this.state = {
       menuOpen: false,
-      icon: 'fas fa-question-circle topicon'
+      icon: 'fas fa-user topicon'
     }
   }
 
@@ -49,7 +49,7 @@ class App extends Component {
       <HashRouter>
       <div className="routerDiv">
       <Menu width={ '40vh' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
-        <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i className="fas fa-question-circle"></i><span>About</span></Link>
+        <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i className="fas fa-user"></i><span>About</span></Link>
         <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i className="fas fa-list-alt"></i><span>Resume</span></Link>
         <Link to="/projects"  onClick={() => this.closeMenu()} id="projects" className="menu-item" href="/about"><i class="fas fa-wrench"></i><span>Projects</span></Link>
         <Link to="/contact"  onClick={() => this.closeMenu()} id="contact" className="menu-item" href="/about"><i className="fas fa-at"></i><span>Contact</span></Link>

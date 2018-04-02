@@ -4,7 +4,7 @@ import FadeIn from 'react-fade-in'
 class About extends Component {
 
   componentDidMount(){
-    this.props.toggleIcon('fas fa-question-circle topicon')
+    this.props.toggleIcon('fas fa-user topicon')
 
   }
 

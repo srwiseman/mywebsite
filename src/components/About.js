@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import FadeIn from 'react-fade-in'
 
 class About extends Component {
+  constructor(props){
+  	super(props);
+  }
 
   componentDidMount(){
-    this.props.toggleIcon('fas fa-user topicon')
+    this.props.toggleIcon('fas fa-user topicon');
 
   }
 

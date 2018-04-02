@@ -33,12 +33,10 @@ class App extends Component {
   }
 
   toggleIcon(icon){
-    console.log("changing icon to " + icon);
     this.state.icon = icon;
   }
 
   render() {
-    console.log(this.state.icon)
 
     var menuStyle = {
       overflow: 'hidden'
@@ -56,19 +54,21 @@ class App extends Component {
       </Menu>
       
       <div>
-        <Route exact path="/" component={About} toggleIcon={this.toggleIcon.bind(this)} />
+        <Route exact path="/"  render={(props) => (
+          <About toggleIcon={this.toggleIcon.bind(this)}/>
+          )}/>
         <Route path="/about"  render={(props) => (
-          <About toggleIcon={this.toggleIcon.bind(this)} />
-          )} />
+          <About toggleIcon={this.toggleIcon.bind(this)}/>
+          )}/>
         <Route path="/resume"  render={(props) => (
-          <Resume toggleIcon={this.toggleIcon.bind(this)} />
-          )} />
+          <Resume toggleIcon={this.toggleIcon.bind(this)}/>
+          )}/>
         <Route path="/projects"  render={(props) => (
-          <Projects toggleIcon={this.toggleIcon.bind(this)} />
-          )} />
+          <Projects toggleIcon={this.toggleIcon.bind(this)}/>
+          )}/>
         <Route path="/contact"  render={(props) => (
-          <Contact toggleIcon={this.toggleIcon.bind(this)} />
-          )} />
+          <Contact toggleIcon={this.toggleIcon.bind(this)}/>
+          )}/>
       </div>
       </div>
       </HashRouter>

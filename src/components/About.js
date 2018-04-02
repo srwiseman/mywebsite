@@ -17,6 +17,7 @@ class About extends Component {
           <p>My name's Stephen Wiseman. Mostly, people call me Steve. I'm a computer engineer. I love challenging myself and learning new things. I especially love to code.
              When I'm not working or coding, I'm playing sports or traveling!
           </p>
+          <p><a href='https://github.com/srwiseman/'><strong><i class="fab fa-github-square fa-2x"></i></strong></a> <a href='https://www.instagram.com/stephenrwiseman/'><strong><i class="fab fa-instagram fa-2x"></i></strong></a> <a href='https://www.linkedin.com/in/stephen-wiseman-b9120866/'><strong><i class="fab fa-linkedin fa-2x"></i></strong></a></p>
       </FadeIn>
       </div>
       </FadeIn>

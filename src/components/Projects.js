@@ -3,6 +3,12 @@ import FadeIn from 'react-fade-in'
 
 class Projects extends Component {
 
+  componentDidMount(){
+    this.props.toggleIcon('fas fa-wrench topicon')
+
+  }
+
+
 
   render() {
 

@@ -4,6 +4,7 @@ import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import FadeIn from 'react-fade-in'
 import {
   HashRouter,
   Route,
@@ -14,7 +15,8 @@ class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      menuOpen: false
+      menuOpen: false,
+      icon: 'fas fa-question-circle topicon'
     }
   }
 
@@ -30,7 +32,13 @@ class App extends Component {
     this.setState({menuOpen: !this.state.menuOpen})
   }
 
+  toggleIcon(icon){
+    console.log("changing icon to " + icon);
+    this.state.icon = icon;
+  }
+
   render() {
+    console.log(this.state.icon)
 
     var menuStyle = {
       overflow: 'hidden'
@@ -48,14 +56,25 @@ class App extends Component {
       </Menu>
       
       <div>
-        <Route exact path="/" component={About} />
-        <Route path="/about" component={About} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/" component={About} toggleIcon={this.toggleIcon.bind(this)} />
+        <Route path="/about"  render={(props) => (
+          <About toggleIcon={this.toggleIcon.bind(this)} />
+          )} />
+        <Route path="/resume"  render={(props) => (
+          <Resume toggleIcon={this.toggleIcon.bind(this)} />
+          )} />
+        <Route path="/projects"  render={(props) => (
+          <Projects toggleIcon={this.toggleIcon.bind(this)} />
+          )} />
+        <Route path="/contact"  render={(props) => (
+          <Contact toggleIcon={this.toggleIcon.bind(this)} />
+          )} />
       </div>
       </div>
       </HashRouter>
+      <div className='topbar'>
+      <i className={this.state.icon + ' fa-2x'}></i>
+      </div>
       </div>
     );
   }

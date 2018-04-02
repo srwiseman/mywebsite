@@ -3,6 +3,12 @@ import FadeIn from 'react-fade-in'
 
 class Contact extends Component {
 
+  componentDidMount(){
+    this.props.toggleIcon('fas fa-at topicon')
+
+  }
+
+
 
   render() {
 

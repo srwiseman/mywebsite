@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var path = require('path');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 var BUILD_DIR = path.resolve(__dirname, 'public');
 var APP_DIR = path.resolve(__dirname, 'src/');
@@ -10,6 +11,7 @@ var config = {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
+  mode : "production",
   module : {
     rules : [
       {
@@ -24,7 +26,10 @@ var config = {
         "process.env": { 
           NODE_ENV: JSON.stringify("production") 
          }
-      })
+      }),
+      new UglifyJSPlugin({
+        sourceMap:true
+    })
   ]
 };
 

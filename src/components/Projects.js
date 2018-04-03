@@ -33,6 +33,7 @@ class Projects extends Component {
           <p><strong>Technologies used: </strong> Javascript, ReactJS, HTML, CSS, webpack</p>
           <hr/>
           <p><h2>Triplix</h2></p>
+          <p><a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><i class="fab fa-google-play"></i> Google Play</a></p>
           <p>A game I published on the Apple App Store and the Google Play Store. It's a basic puzzle game written in C#, using the Unity engine. It was featured on the popular site mobile site
            App Gratis and at one point had 10k active players.</p>
           <p><strong>Technologies used: </strong> C#, Unity</p>

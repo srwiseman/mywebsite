@@ -33,10 +33,17 @@ class Projects extends Component {
           <p><strong>Technologies used: </strong> Javascript, ReactJS, HTML, CSS, webpack</p>
           <hr/>
           <p><h2>Triplix</h2></p>
-          <p><a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><i class="fab fa-google-play"></i> Google Play</a></p>
+          <p><a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><strong><i class="fab fa-google-play"></i> Google Play</strong></a></p>
           <p>A game I published on the Apple App Store and the Google Play Store. It's a basic puzzle game written in C#, using the Unity engine. It was featured on the popular site mobile site
            App Gratis and at one point had 10k active players.</p>
           <p><strong>Technologies used: </strong> C#, Unity</p>
+          <hr/>
+          <p><h2>Out East Apparel</h2></p>
+          <p><a href="http://www.outeastapparel.com"><strong><i class="fas fa-gift"></i> Visit Store</strong></a></p>
+          <p>Out East Apparel (OEA) is a clothing company based out of Newfoundland Canada. I'm one of the founders of the company, and the main social media manager. 
+          We mainly sell t-shirts with Newfoundland-inspired designs.</p>
+          <p>Follow us on Social Media!</p>
+          <p><a href="https://www.facebook.com/outeastapparel/"><i class="fab fa-facebook-square fa-2x"></i></a> <a href="https://www.instagram.com/outeastapparelnl/"><i class="fab fa-instagram fa-2x"></i></a> <a href="https://twitter.com/outeastapparel"><i class="fab fa-twitter-square fa-2x"></i></a></p>
       </FadeIn>
       </div>
       </FadeIn>

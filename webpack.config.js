@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 var BUILD_DIR = path.resolve(__dirname, 'public');
 var APP_DIR = path.resolve(__dirname, 'src/');
@@ -29,7 +30,8 @@ var config = {
       }),
       new UglifyJSPlugin({
         sourceMap:true
-    })
+    }),
+      new BundleAnalyzerPlugin()
   ]
 };
 

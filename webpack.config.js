@@ -26,6 +26,11 @@ var config = {
       new webpack.DefinePlugin({
         "process.env": { 
           NODE_ENV: JSON.stringify("production") 
+         },
+         comments: false,
+         compress : {
+          drop_console: true,
+          warnings: false
          }
       }),
       new UglifyJSPlugin({

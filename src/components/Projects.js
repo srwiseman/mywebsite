@@ -33,19 +33,19 @@ class Projects extends Component {
           <p><strong>Technologies used: </strong> Javascript, ReactJS, HTML, CSS, webpack</p>
           <hr/>
           <p><h2>Triplix</h2></p>
-          <p><a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><strong><i class="fab fa-google-play"></i> Google Play</strong></a></p>
+          <p><a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><i class="fab fa-google-play"></i><strong> Google Play</strong></a></p>
           <p>A game I published on the Apple App Store and the Google Play Store. It's a basic puzzle game written in C#, using the Unity engine. It was featured on a few popular mobile app sites and at one point had 10k active players.</p>
           <p><strong>Technologies used: </strong> C#, Unity</p>
           <hr/>
           <p><h2>Out East Apparel</h2></p>
-          <p><a href="http://www.outeastapparel.com"><strong><i class="fas fa-gift"></i> Visit Store</strong></a></p>
+          <p><a href="http://www.outeastapparel.com"><i class="fas fa-gift"></i><strong> Visit Store</strong></a></p>
           <p>Out East Apparel (OEA) is a clothing company based out of Newfoundland Canada. I'm one of the founders of the company, and the main social media manager. 
           We mainly sell t-shirts with Newfoundland-inspired designs.</p>
           <p>Follow us on Social Media!</p>
           <p><a href="https://www.facebook.com/outeastapparel/"><i class="fab fa-facebook-square fa-2x"></i></a> <a href="https://www.instagram.com/outeastapparelnl/"><i class="fab fa-instagram fa-2x"></i></a> <a href="https://twitter.com/outeastapparel"><i class="fab fa-twitter-square fa-2x"></i></a></p>
           <hr/>
           <p><h2>Cesium</h2></p>
-          <a href='https://github.com/AnalyticalGraphicsInc/cesium'><strong><i class="fab fa-github-square"></i> GitHub Link</strong></a>
+          <a href='https://github.com/AnalyticalGraphicsInc/cesium'><i class="fab fa-github-square"></i><strong> GitHub Link</strong></a>
           <p>I'm a contributor to the open source 3D globe javascript library 'Cesium'. I've fixed bugs, wrote tests, and I'm currently working on a feature to automate some functionality.</p>
           <p><strong>Technologies used: </strong> Javascript, Jasmine testing framework</p>
       </FadeIn>

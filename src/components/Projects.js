@@ -22,12 +22,12 @@ class Projects extends Component {
           <p>I try to keep busy! I'm always working on a few different coding projects. Whether it's for work, personal, or open source. Here are some of my projects. Most will have GitHub links so you can look at my code.</p>
           <hr/>
           <p><h2>Sounddeez</h2></p>
-          <a href='https://github.com/srwiseman/sounddeez'><strong><i class="fab fa-github-square"></i> GitHub Link</strong></a>
+          <a href='https://github.com/srwiseman/sounddeez'><i class="fab fa-github-square"></i><strong> GitHub Link</strong></a>
           <p>A music queuing system for Bose WiFi connected radios. Comprised of a backend server written in Golang, and a front end client written in ReactJS.</p>
           <p><strong>Technologies used: </strong> Golang, Javascript, ReactJS, JSON, HTML, CSS</p>
           <hr/>
           <p><h2>This Website</h2></p>
-          <a href='https://github.com/srwiseman/mywebsite'><strong><i class="fab fa-github-square"></i> GitHub Link</strong></a>
+          <a href='https://github.com/srwiseman/mywebsite'><i class="fab fa-github-square"></i><strong> GitHub Link</strong></a>
           <p>A basic website written in ReactJS. It's a single page web application. Each view is actually a different react component. It's controlled by a hash router so that everything can be
           bundeled by webpack and served as static Javascript, HTML, and CSS.</p>
           <p><strong>Technologies used: </strong> Javascript, ReactJS, HTML, CSS, webpack</p>

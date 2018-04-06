@@ -21,17 +21,17 @@ class About extends Component {
       <FadeIn>
       <div className="content">
       <FadeIn>
-          <h1 className="App-title">Hello!</h1>
-          <p><Typist className="MyTypist" avgTypingDelay={50}>My name's Stephen Wiseman.
+          <h1 className="App-title">Hello</h1>
+          <p><Typist className="MyTypist" avgTypingDelay={50}><Typist.Delay ms={1500} />My name's Stephen Wiseman.
           <Typist.Delay ms={1000} />
           <br/> But you can call me Steve.
           <Typist.Delay ms={1000} />
           <br/> I'm a computer engineer, who loves to code.
           <Typist.Delay ms={1000} />
           <br/>
-          These days, I'm really interested in coding with <strong>ReactJS</strong>. 
+          These days, I'm really interested in coding with <strong><a href="https://reactjs.org/">ReactJS</a></strong>. 
           <Typist.Delay ms={1000} />
-          <br/>In fact, this site is made from scratch with <strong>ReactJS</strong>! 
+          <br/>In fact, this site is made from scratch with <strong><a href="https://reactjs.org/">ReactJS</a></strong>! 
           <Typist.Delay ms={1000} />
           <br/>
           If you want to look at my code, check out the <strong><a href="https://github.com/srwiseman/mywebsite">GitHub page! </a></strong>

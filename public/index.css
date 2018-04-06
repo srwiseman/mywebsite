@@ -13,7 +13,11 @@ a {
 }
 
 h1 {
-    color: #DDD;
+    color: #BBB;
+}
+
+strong {
+  color: #DDD;
 }
 
 .topbar {

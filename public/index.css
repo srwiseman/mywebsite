@@ -140,3 +140,8 @@ a:focus {
     }
   }
 }
+
+.typing-font {
+  font-family: 'Source Code Pro', monospace;
+
+}

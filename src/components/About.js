@@ -21,7 +21,7 @@ class About extends Component {
       <FadeIn>
       <div className="content">
       <FadeIn>
-          <h1 className="App-title">Hello</h1>
+          <h1 className="App-title typing-font">Hello</h1>
           <p className="typing-font"><Typist className="MyTypist" avgTypingDelay={50}><Typist.Delay ms={1500} />My name's Stephen Wiseman.
           <Typist.Delay ms={1000} />
           <br/> But you can call me Steve.

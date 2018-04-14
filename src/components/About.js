@@ -18,9 +18,7 @@ class About extends Component {
 
     return (
     <div className="about">
-      <FadeIn>
       <div className="content">
-      <FadeIn>
           <h1 className="App-title typing-font">Hello</h1>
           <p className="typing-font"><Typist className="MyTypist" avgTypingDelay={50}><Typist.Delay ms={1500} />My name's Stephen Wiseman.
           <Typist.Delay ms={1000} />
@@ -38,9 +36,7 @@ class About extends Component {
           </Typist>
           <p><a href='https://github.com/srwiseman/'><i class="fab fa-github-square fa-2x"></i></a> <a href='https://www.instagram.com/stephenrwiseman/'><i class="fab fa-instagram fa-2x"></i></a> <a href='https://www.linkedin.com/in/stephen-wiseman-b9120866/'><i class="fab fa-linkedin fa-2x"></i></a></p>
           </p>
-      </FadeIn>
       </div>
-      </FadeIn>
       </div>
     );
   }

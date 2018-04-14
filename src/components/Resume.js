@@ -20,7 +20,7 @@ class Resume extends Component {
       <FadeIn>
       <div className="content">
       <FadeIn>
-          <h1 className="App-title">Resume</h1>
+          <h1 className="App-title">Career</h1>
           <h2><i class="fas fa-briefcase"></i> Work</h2>
           <p><h3><strong>Nokia - Applications Engineer (Team Lead) - 2013 to Current</strong></h3>
           <strong>Responsibilities</strong>

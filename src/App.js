@@ -50,7 +50,7 @@ class App extends Component {
       <Menu width={ '40vh' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
         <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i className="fas fa-user"></i><span>About</span></Link>
         <Link to="/skills"  onClick={() => this.closeMenu()} id="skills" className="menu-item" href="/skills"><i class="fas fa-star"></i><span>Skills</span></Link>
-        <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i className="fas fa-list-alt"></i><span>Resume</span></Link>
+        <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i className="fas fa-list-alt"></i><span>Career</span></Link>
         <Link to="/projects"  onClick={() => this.closeMenu()} id="projects" className="menu-item" href="/about"><i class="fas fa-wrench"></i><span>Projects</span></Link>
         <Link to="/contact"  onClick={() => this.closeMenu()} id="contact" className="menu-item" href="/about"><i className="fas fa-at"></i><span>Contact</span></Link>
       </Menu>

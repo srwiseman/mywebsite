@@ -35,12 +35,12 @@ class Skills extends Component {
           <p><strong><a href="https://www.python.org/">Python</a></strong> is generally my "all-purpose" go-to language. Especially if I'm trying to get something written quickly. Most of the things I create with Python are at my job. Most recently, I developed a set of web applications for internal use. These applications automate many tasks, and are all written in python on top of the <strong><a href="http://flask.pocoo.org/">Flask</a></strong> framework.
           They integrate with <strong><a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol">LDAP</a></strong> to ensure that users have appropriate access authorization. </p>
 
-          <p>I also participate in programming compitions like <strong><a href="https://code.google.com/codejam/">Google Code Jam</a></strong>. I almost always use python to code my solutions since you can lay down basic code very, very quickly 
+          <p>I also participate in programming competitions like <strong><a href="https://code.google.com/codejam/">Google Code Jam</a></strong>. I almost always use python to code my solutions since you can lay down basic code very, very quickly 
           (and these competitions are time-limited).</p>
 
           <h2>Java</h2>
-          <p>The application that I work withat my job is a distributed Java application. Along with being able to write and debug Java code, I need to be able to troubleshoot the live application. 
-          I regularly need to read Java thread dumps to identify issues such as deadlocks. I also routinely need to analyse the applications heap and look at class histograms to pinpoint JVM memory
+          <p>The application that I work with at my job is a distributed Java application. Along with being able to write and debug Java code, I need to be able to troubleshoot the live application. 
+          I regularly need to read Java thread dumps to identify issues such as deadlocks. I also routinely need to analyze the applications heap and look at class histograms to pinpoint JVM memory
           issues.</p> 
 
           <h2>SQL (Databases)</h2>
@@ -50,12 +50,12 @@ class Skills extends Component {
           
           <h2>Linux/UNIX</h2>
           <p>I work in Linux about 90% of the time at my job. The application that I work with is only supported on specific versions of <strong><a href="https://www.redhat.com/en">Red Hat</a></strong>.
-          Many performance issues that we face, require that I know how to troubleshoot in a Linux environment. For example, I need to regularly diagnose performand issues with commands like: top, vmstat, iostat, netstat, etc.
+          Many performance issues that we face, require that I know how to troubleshoot in a Linux environment. For example, I need to regularly diagnose performance issues with commands like: top, vmstat, iostat, netstat, etc.
           I'm quite familiar with the directory structures, and navigating, viewing, and editing files. Also quite familiar with manipulating output with things like grep, awk, sed, etc. I used to do professional services,
           where I would travel all around the world and install Red Hat. My Linux is solid.</p>
 
           <h2>Unity</h2>
-          <p>Once upon a time, I used to develop games. I got quite proficiant at using the Unity engine. I created a mobile game called Triplix and released it on the App store and the <a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><i class="fab fa-google-play"></i><strong> Google Play</strong></a> store. It got featured
+          <p>Once upon a time, I used to develop games. I got quite proficient at using the Unity engine. I created a mobile game called Triplix and released it on the App store and the <a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><i class="fab fa-google-play"></i><strong> Google Play</strong></a> store. It got featured
           on a popular website, and I thought I was on my way to retirement. I figured I would place some ads and get rich off the ad revenue. A few years and 75$ in ad revenue later, I learned
           that it's hard to make money from indie game development. I did, however, learn C#. Turns out it's pretty similar to Java. I also learned how to integrate some cool Unity tools like Unity Analytics and Unity Ads.</p>
       </FadeIn>

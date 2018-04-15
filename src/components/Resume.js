@@ -27,7 +27,6 @@ class Resume extends Component {
           <br/>Troubleshoot Java code bugs
           <br/>Automate/Build internal tools
           <br/>Deploy Software around the world
-          <br/><strong>Demonstrated Skills:</strong>
           </p>
           <h2><i class="fas fa-graduation-cap"></i> School</h2>
           <p><h3><strong>Memorial University of Newfoundland - 2007 to 2013</strong></h3>

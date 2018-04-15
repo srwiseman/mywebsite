@@ -20,7 +20,7 @@ class Skills extends Component {
       <div className="content">
       <FadeIn>
           <h1 className="App-title">Skills</h1>
-          <p>Here are some things I'm good at! This is going to be a work in progress. I don't think it's good enough just to say I'm good at things (otherwise I'd just say I'm good at eveything!). So I'll try to backup my claims and provide links to code as much as possible!</p>
+          <p>Here are some things I'm good at! This isn't an exhaustive list, and it's going to be a work in progress. I don't think it's good enough just to say I'm good at things (otherwise I'd just say I'm good at eveything!). So I'll try to backup my claims and provide links to code as much as possible!</p>
           <h2>React (Javascript)</h2>
           <p>Lately, I've been really into coding with <strong><a href="https://reactjs.org/">React</a></strong>. I think it's awesome! My first react project was a project I called <a href='https://github.com/srwiseman/sounddeez'><i class="fab fa-github-square"></i><strong> Sounddeez </strong></a>. Basically, It creates a virtual DJ at my house. 
           Essentially, anyone who connects to my WiFi can play any song in the <strong><a href="https://www.deezer.com/en/">Deezer</a></strong> library on a stereo at my house! I wrote a backend API in GO, and the entire frontend in React.</p>

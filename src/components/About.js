@@ -24,7 +24,7 @@ class About extends Component {
           <Typist.Delay ms={1000} />
           <br/> But you can call me Steve.
           <Typist.Delay ms={1000} />
-          <br/> I'm a computer engineer, who loves to code.
+          <br/> I'm a computer engineer who loves to code.
           <Typist.Delay ms={1000} />
           <br/>
           These days, I'm really interested in coding with <strong><a href="https://reactjs.org/">ReactJS</a></strong>. 

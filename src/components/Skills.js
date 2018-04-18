@@ -20,11 +20,14 @@ class Skills extends Component {
       <div className="content">
       <FadeIn>
           <h1 className="App-title">Skills</h1>
-          <p>Here are some things I'm good at! <strong>This isn't an exhaustive list, and it's going to be a bit of a work in progress</strong>. I'll try to provide links to code as much as possible!</p>
+          <p>I spend as much time as I can learning new technologies and frameworks! Here are some of the things I'm good at. I'll try to provide links to code where possible.</p>
+          <p><strong>What I'm learning right now:</strong></p><p> <strong>Redux.</strong></p><p> Lately I've been obsessed with React. I've made several apps using just basic React components (like this site!). As I moved on to do more complex
+          things, I started to implement Facebook's Flux model. However, as my applications get even more complex, I'm finding it hard to manage all of the actions, stores, states, props, etc. What I'm finding especially hard is managing 
+          all of my asynchronous REST API calls (which trigger state changes, which trigger actions, which trigger state changes...). </p><p><strong>Enter Redux.</strong></p>
           <h2>React (Javascript)</h2>
-          <p>Lately, I've been really into coding with <strong><a href="https://reactjs.org/">React</a></strong>. I think it's awesome! My first react project was a project I called <a href='https://github.com/srwiseman/sounddeez'><i class="fab fa-github-square"></i><strong> Sounddeez </strong></a>. Basically, It creates a virtual DJ at my house. 
+          <p>Lately, I've been really into coding with <strong><a href="https://reactjs.org/">React</a></strong>. I think it's awesome! My first react project was a project I called <a href='https://github.com/srwiseman/sounddeez'><strong> Sounddeez </strong></a>. Basically, It creates a virtual DJ at my house. 
           Essentially, anyone who connects to my WiFi can play any song in the <strong><a href="https://www.deezer.com/en/">Deezer</a></strong> library on a stereo at my house! I wrote a backend API in GO, and the entire frontend in React.</p>
-          <p>I also created <a href='https://github.com/srwiseman/mywebsite'><i class="fab fa-github-square"></i><strong> this website</strong></a> with React. It's pretty basic, but it was a fun little project. Each page is a component, the top bar is a component, and the sidebar on the left is a component. It uses a hash router to keep track of what's displayed. I package it as a single .js bundle using <strong><a href="https://webpack.js.org/">webpack</a></strong>.</p>
+          <p>I also created <a href='https://github.com/srwiseman/mywebsite'><strong> this website</strong></a> with React. It's pretty basic, but it was a fun little project. Each page is a component, the top bar is a component, and the sidebar on the left is a component. It uses a hash router to keep track of what's displayed. I package it as a single .js bundle using <strong><a href="https://webpack.js.org/">webpack</a></strong>.</p>
           <p>Lastly, I'm developing a virtual machine manager at work. It enables our users to create/delete/manage VMs. The cool part is that you can create a VM pre-loaded with any version of our software, with any database restored on it!
           It also does it blazingly fast! 
           The frontend (which looks quite snazzy), is entirely coded with React. I decided to do things right, and employ the <strong><a href="https://facebook.github.io/flux/docs/overview.html">React flux model</a></strong>.

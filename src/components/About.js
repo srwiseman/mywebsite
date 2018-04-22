@@ -22,9 +22,9 @@ class About extends Component {
           <h1 className="App-title typing-font">Hello</h1>
           <p className="typing-font"><Typist className="MyTypist" avgTypingDelay={50}><Typist.Delay ms={1500} />My name's Stephen Wiseman.
           <Typist.Delay ms={1000} />
-          <br/> But you can call me Steve.
+          <br/>But you can call me Steve.
           <Typist.Delay ms={1000} />
-          <br/> I'm a computer engineer who loves to code.
+          <br/>I'm a computer engineer who loves to code.
           <Typist.Delay ms={1000} />
           <br/>In fact, this site is made from scratch with <strong><a href="https://reactjs.org/">React</a></strong>! 
           <Typist.Delay ms={1000} />

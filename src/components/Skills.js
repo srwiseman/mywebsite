@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 import FadeIn from 'react-fade-in'
+import { Collapse, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap'
 
 class Skills extends Component {
   constructor(props){
   	super(props);
+    this.state = {
+      react: false,
+      python: false
+    }
   }
 
   componentDidMount(){
     this.props.toggleIcon('fas fa-star topicon');
 
+  }
+
+  reactToggle(){
+    this.setState({react: !this.state.react})
   }
 
 
@@ -20,10 +29,55 @@ class Skills extends Component {
       <div className="content">
       <FadeIn>
           <h1 className="App-title">Skills</h1>
-          <p>I spend as much time as I can learning new technologies and frameworks! Here are some of the things I'm good at. I'll try to provide links to code where possible.</p>
-          <p><strong>What I'm learning right now:</strong></p><p> <strong>Redux.</strong></p><p> Lately I've been obsessed with React. I've made several apps using just basic React components (like this site!). As I moved on to do more complex
-          things, I started to implement Facebook's Flux model. However, as my applications get even more complex, I'm finding it hard to manage all of the actions, stores, states, props, etc. What I'm finding especially hard is managing 
-          all of my asynchronous REST API calls (which trigger state changes, which trigger actions, which trigger state changes...). </p><p><strong>Enter Redux.</strong></p>
+          <h2>What I'm focusing on right now</h2>
+          <p><strong>All things React.</strong> I like to make things. React helps me make things. <strong>I like React.</strong></p>
+          <p>I've built a ton of apps with React. I started out with basic components. I then learned the Flux architecture and built apps with Redux.
+          Right now, I'm building a complex virtual machine management front-end.
+          </p>
+          <h2>What I do</h2>
+          <Container>
+          <Row>
+          <Col>
+          <Card style={{backgroundColor: "#FAFAFA"}}>
+            <CardTitle>Front-end</CardTitle>
+            <CardText>
+            React (Flux, Redux, material-ui, Reactstrap), Javascript, HTML, CSS
+            </CardText>
+          </Card>
+          </Col>
+          <Col>
+          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <CardTitle>Back-end</CardTitle>
+          <CardText>
+          Python (Flask, Django), Java, C#, NodeJS, Oracle, SQlite
+          </CardText>
+          </Card>
+          </Col>
+          </Row>
+          <br/>
+          <Row>
+          <Col>
+          <Card style={{backgroundColor: "#FAFAFA"}}>
+            <CardTitle>Operating Systems</CardTitle>
+            <CardText>
+            Unix (Solaris), Linux (Red-Hat, Centos, Fedora, Ubuntu), Windows
+            </CardText>
+          </Card>
+          </Col>
+          <Col>
+          <Card style={{backgroundColor: "#FAFAFA"}}>
+            <CardTitle>Dev Tools</CardTitle>
+            <CardText>
+            IntelliJ, Eclipse, Sublime, Git, PyCharm
+            </CardText>
+          </Card>
+          </Col>
+          </Row>
+          </Container>
+          <br/>
+          <p>Interested in <strong><a href="javascript:void(0)" onClick={this.reactToggle.bind(this)}>examples</a></strong>?</p>
+          
+          <Collapse isOpen={this.state.react}>
           <h2>React (Javascript)</h2>
           <p>Lately, I've been really into coding with <strong><a href="https://reactjs.org/">React</a></strong>. I think it's awesome! My first react project was a project I called <a href='https://github.com/srwiseman/sounddeez'><strong> Sounddeez </strong></a>. Basically, It creates a virtual DJ at my house. 
           Essentially, anyone who connects to my WiFi can play any song in the <strong><a href="https://www.deezer.com/en/">Deezer</a></strong> library on a stereo at my house! I wrote a backend API in GO, and the entire frontend in React.</p>
@@ -33,7 +87,7 @@ class Skills extends Component {
           The frontend (which looks quite snazzy), is entirely coded with React. I decided to do things right, and employ the <strong><a href="https://facebook.github.io/flux/docs/overview.html">React flux model</a></strong>.
           Basically, the components trigger actions, which trigger API calls to the Java <strong><a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST API</a></strong> we developped. The Java backend communicates to an <strong><a href="https://www.openstack.org/">openstack</a></strong> API, and provides data to the React frontend. The actions are dispatched and picked up by the stores, which update the themselves based on the results of the actions.
           Then the components (who are listening for changes to the stores), update their states accordingly! Fun! Obviously, I can't share the source for this one. </p>
-
+          
           <h2>Python</h2>
           <p><strong><a href="https://www.python.org/">Python</a></strong> is generally my "all-purpose" go-to language. Especially if I'm trying to get something written quickly. Most of the things I create with Python are at my job. Most recently, I developed a set of web applications for internal use. These applications automate many tasks, and are all written in python on top of the <strong><a href="http://flask.pocoo.org/">Flask</a></strong> framework.
           They integrate with <strong><a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol">LDAP</a></strong> to ensure that users have appropriate access authorization. </p>
@@ -61,6 +115,7 @@ class Skills extends Component {
           <p>Once upon a time, I used to develop games. I got quite proficient at using the Unity engine. I created a mobile game called Triplix and released it on the App store and the <a href="https://play.google.com/store/apps/details?id=com.swisemanapps.tripli&hl=en"><i class="fab fa-google-play"></i><strong> Google Play</strong></a> store. It got featured
           on a popular website, and I thought I was on my way to retirement. I figured I would place some ads and get rich off the ad revenue. A few years and 75$ in ad revenue later, I learned
           that it's hard to make money from indie game development. I did, however, learn C#. Turns out it's pretty similar to Java. I also learned how to integrate some cool Unity tools like Unity Analytics and Unity Ads.</p>
+          </Collapse>
       </FadeIn>
       </div>
       </div>

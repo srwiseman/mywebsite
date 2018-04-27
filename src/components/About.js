@@ -31,6 +31,7 @@ class About extends Component {
           <br/>
           If you want to look at my code, check out the <strong><a href="https://github.com/srwiseman/mywebsite">GitHub page! </a></strong>
           </Typist>
+          <br/>
           <p><a href='https://github.com/srwiseman/'><i class="fab fa-github-square fa-2x"></i></a> <a href='https://www.instagram.com/stephenrwiseman/'><i class="fab fa-instagram fa-2x"></i></a> <a href='https://www.linkedin.com/in/stephen-wiseman-b9120866/'><i class="fab fa-linkedin fa-2x"></i></a></p>
           </p>
       </div>

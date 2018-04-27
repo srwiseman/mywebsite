@@ -40,7 +40,7 @@ class Resume extends Component {
           <p><strong>Develop tools and web applications</strong>
           <br/>Full-stack web application development. Using React, Javascript, HTML, CSS, and JQuery, develop robust front-ends. Using Python, Flask, Java, SQLite, develop solid back-end functionality.
           Develop REST APIs to communicate between components.</p>
-          <br/><strong>Deploy Software around the world</strong>
+          <strong>Deploy Software around the world</strong>
           <br/>Traveled around the world performing professional service work. Deployed HP servers, installed operating systems such as Red Hat Linux, defined the server networking rules, and installed 
           Nokia software.
           </CardText>

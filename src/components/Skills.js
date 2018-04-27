@@ -72,7 +72,7 @@ class Skills extends Component {
           <Card style={{backgroundColor: "#FAFAFA"}}>
             <CardTitle>Dev Tools</CardTitle>
             <CardText>
-            IntelliJ, Eclipse, Sublime, Git, PyCharm
+            IntelliJ, Eclipse, Sublime, Git, PyCharm, Jira
             </CardText>
           </Card>
           </Col>

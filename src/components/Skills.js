@@ -37,7 +37,8 @@ class Skills extends Component {
           <h2>What I do</h2>
           <Container>
           <Row>
-          <Col>
+          <Col sm="12" md="6">
+          <br/>
           <Card style={{backgroundColor: "#FAFAFA"}}>
             <CardTitle>Front-end</CardTitle>
             <CardText>
@@ -45,7 +46,8 @@ class Skills extends Component {
             </CardText>
           </Card>
           </Col>
-          <Col>
+          <Col sm="12" md="6">
+          <br/>
           <Card style={{backgroundColor: "#FAFAFA"}}>
           <CardTitle>Back-end</CardTitle>
           <CardText>
@@ -56,7 +58,8 @@ class Skills extends Component {
           </Row>
           <br/>
           <Row>
-          <Col>
+          <Col sm="12" md="6">
+          <br/>
           <Card style={{backgroundColor: "#FAFAFA"}}>
             <CardTitle>Operating Systems</CardTitle>
             <CardText>
@@ -64,7 +67,8 @@ class Skills extends Component {
             </CardText>
           </Card>
           </Col>
-          <Col>
+          <Col sm="12" md="6">
+          <br/>
           <Card style={{backgroundColor: "#FAFAFA"}}>
             <CardTitle>Dev Tools</CardTitle>
             <CardText>

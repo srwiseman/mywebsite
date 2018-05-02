@@ -20,11 +20,12 @@ class Resume extends Component {
     <div className="about">
       <FadeIn>
       <div className="content">
-      <FadeIn>
           <h1 className="App-title">Career</h1>
           <Container>
+          <FadeIn>
           <Row>
           <Col sm="12" md={{ size: 8, offset: 2 }}>
+          
           <Card style={{backgroundColor: "#FAFAFA"}}>
           <CardHeader>
           <h2><i class="fas fa-briefcase"></i> Work</h2>
@@ -45,6 +46,7 @@ class Resume extends Component {
           Nokia software.
           </CardText>
           </Card>
+         
           </Col>
           </Row>
           <br/>
@@ -63,12 +65,13 @@ class Resume extends Component {
           <br/>Co-op program (six workterms)
           </CardText>
           </Card>
+          <br/>
           </Col>
           </Row>
+          </FadeIn>
 
           </Container>
           
-      </FadeIn>
       </div>
       </FadeIn>
       </div>

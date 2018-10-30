@@ -18,21 +18,32 @@ class Resume extends Component {
 
     return (
     <div className="about">
+    TEST
       <FadeIn>
       <div className="content">
           <h1 className="App-title">Career</h1>
           <Container>
           <FadeIn>
           <Row>
-          <Col sm="12" md={{ size: 8, offset: 2 }}>
-          
+          <Col sm="12" md={{ size: 8, offset: 2 }}>          
           <Card style={{backgroundColor: "#FAFAFA"}}>
           <CardHeader>
           <h2><i class="fas fa-briefcase"></i> Work</h2>
           </CardHeader>
           <CardTitle>
           <br/>
-          Nokia - Applications Engineer (Team Lead) - 2013 to Current
+          Rockport Networks - Software Developer
+          </CardTitle>
+          <CardText>
+          <p><strong>Develop</strong><br/>Develop production single-page web applications that interact with back-end microservices through REST APIs and websockets</p>
+          <p><strong>Maintain</strong><br/>Utilize functional programming principles and frameworks to ensure code is simple, maintainable, and highly testable</p>
+          <p><strong>Test</strong><br/>Build robust mock services to ensure that testing and development of the front-end architecture can be done independently of any back-end development.
+          Test functionality using Puppeteer automated tests.</p>
+         </CardText>
+         <i class="fas fa-ellipsis-h"></i>
+          <CardTitle>
+          <br/>
+          Nokia - Applications Engineer (Team Lead) - 2013 to 2018
           </CardTitle>
           <CardText>
           <p><strong>Debug Production Java code</strong>
@@ -58,7 +69,7 @@ class Resume extends Component {
           </CardHeader>
           <CardTitle>
           <br/>
-          Memorial University of Newfoundland - 2007 to 2013
+          <strong>Memorial University of Newfoundland - 2007 to 2013</strong>
           </CardTitle>
           <CardText>
               Bachelor of Computer Engineering

@@ -64,7 +64,7 @@ class Resume extends Component {
           <br/>
           <Row>
           <Col sm="12" md={{ size: 8, offset: 2 }}>
-          <Card style={{backgroundColor: "#DDD"}}>
+          <Card style={{backgroundColor: "#EEE"}}>
           <CardHeader>
           <h2><i class="fas fa-graduation-cap"></i> School</h2>
           </CardHeader>

@@ -4,7 +4,8 @@ import FadeIn from 'react-fade-in'
 class Projects extends Component {
 
   componentDidMount(){
-    this.props.toggleIcon('fas fa-wrench topicon')
+    this.props.toggleIcon('fas fa-wrench topicon');
+    document.body.style.backgroundColor = '#E0E0E0';
 
   }
 
@@ -38,7 +39,6 @@ class Projects extends Component {
           <p><strong>Technologies used: </strong> C#, Unity</p>
           <hr/>
           <p><h2>Out East Apparel</h2></p>
-          <p><a href="http://www.outeastapparel.com"><i class="fas fa-gift"></i><strong> Visit Store</strong></a></p>
           <p>Out East Apparel (OEA) is a clothing company based out of Newfoundland Canada. I'm one of the founders of the company, and the main social media manager. 
           We mainly sell t-shirts with Newfoundland-inspired designs.</p>
           <p>Follow us on Social Media!</p>

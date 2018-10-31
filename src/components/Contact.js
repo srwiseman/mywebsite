@@ -6,7 +6,6 @@ class Contact extends Component {
   componentDidMount(){
     this.props.toggleIcon('fas fa-at topicon');
     document.body.style.backgroundColor = '#E0E0E0';
-
   }
 
 

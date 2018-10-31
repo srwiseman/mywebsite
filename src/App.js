@@ -6,6 +6,8 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
 import FadeIn from 'react-fade-in'
+import './CSS/index.css'
+import './CSS/app.css'
 import {
   HashRouter,
   Route,
@@ -79,8 +81,13 @@ class App extends Component {
       </div>
       </div>
       </HashRouter>
-      <div className='topbar'>
-      <i className={this.state.icon + ' fa-2x'}></i>
+      <div className="item-container">
+      <div className="item">
+      </div>
+      <div className="item2">
+      </div>
+      <div className="item3">
+      </div>
       </div>
       </div>
     );

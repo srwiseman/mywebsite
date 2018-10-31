@@ -18,7 +18,6 @@ class Resume extends Component {
 
     return (
     <div className="about">
-    TEST
       <FadeIn>
       <div className="content">
           <h1 className="App-title">Career</h1>
@@ -26,7 +25,7 @@ class Resume extends Component {
           <FadeIn>
           <Row>
           <Col sm="12" md={{ size: 8, offset: 2 }}>          
-          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <Card style={{backgroundColor: "#EEE"}}>
           <CardHeader>
           <h2><i class="fas fa-briefcase"></i> Work</h2>
           </CardHeader>
@@ -45,6 +44,7 @@ class Resume extends Component {
           <br/>
           Nokia - Applications Engineer (Team Lead) - 2013 to 2018
           </CardTitle>
+
           <CardText>
           <p><strong>Debug Production Java code</strong>
           <br/>Dubug and poinpoint code bugs in a large scale Java application. Use tools/techniques such as Java thread dumps, HPROF analysis, Oracle AWR reports, garbage collection analysis,
@@ -63,7 +63,7 @@ class Resume extends Component {
           <br/>
           <Row>
           <Col sm="12" md={{ size: 8, offset: 2 }}>
-          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <Card style={{backgroundColor: "#DDD"}}>
           <CardHeader>
           <h2><i class="fas fa-graduation-cap"></i> School</h2>
           </CardHeader>

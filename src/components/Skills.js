@@ -31,27 +31,24 @@ class Skills extends Component {
           <h1 className="App-title">Skills</h1>
           <h2>What I'm focusing on right now</h2>
           <p><strong>All things React.</strong> I like to make things. React helps me make things. <strong>I like React.</strong></p>
-          <p>I've built a ton of apps with React. I started out with basic components. I then learned the Flux architecture and built apps with Redux.
-          Right now, I'm building a complex virtual machine management front-end.
-          </p>
           <h2>What I do</h2>
           <Container>
           <Row>
           <Col sm="12" md="6">
           <br/>
-          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <Card style={{backgroundColor: "#EEE"}}>
             <CardTitle>Front-end</CardTitle>
             <CardText>
-            React (Flux, Redux, material-ui, Reactstrap), Javascript, HTML, CSS
+            React (Flux, Redux, material-ui, Reactstrap), Javascript, HTML, CSS, Clojurescript, Jest, Puppeteer
             </CardText>
           </Card>
           </Col>
           <Col sm="12" md="6">
           <br/>
-          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <Card style={{backgroundColor: "#EEE"}}>
           <CardTitle>Back-end</CardTitle>
           <CardText>
-          Python (Flask, Django), Java, C#, NodeJS, Oracle, SQlite
+          Python (Flask, Django), Java, C#, NodeJS, Oracle, SQlite, Clojure
           </CardText>
           </Card>
           </Col>
@@ -60,7 +57,7 @@ class Skills extends Component {
           <Row>
           <Col sm="12" md="6">
           <br/>
-          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <Card style={{backgroundColor: "#EEE"}}>
             <CardTitle>Operating Systems</CardTitle>
             <CardText>
             Unix (Solaris), Linux (Red-Hat, Centos, Fedora, Ubuntu), Windows
@@ -69,7 +66,7 @@ class Skills extends Component {
           </Col>
           <Col sm="12" md="6">
           <br/>
-          <Card style={{backgroundColor: "#FAFAFA"}}>
+          <Card style={{backgroundColor: "#EEE"}}>
             <CardTitle>Dev Tools</CardTitle>
             <CardText>
             IntelliJ, Eclipse, Sublime, Git, PyCharm, Jira
@@ -83,7 +80,9 @@ class Skills extends Component {
           
           <Collapse isOpen={this.state.react}>
           <h2>React (Javascript)</h2>
-          <p>Lately, I've been really into coding with <strong><a href="https://reactjs.org/">React</a></strong>. I think it's awesome! My first react project was a project I called <a href='https://github.com/srwiseman/sounddeez'><strong> Sounddeez </strong></a>. Basically, It creates a virtual DJ at my house. 
+          <p>At Rockport Networks, I develop a single page application using the React library. We use Clojurescript which transpiles to Javascript. The main libraries I use are Reagent
+          (a Clojurescript React wrapper library) and re-frame (similar in concept to Redux).</p>
+          <p>My first react project was a project I called <a href='https://github.com/srwiseman/sounddeez'><strong> Sounddeez </strong></a>. Basically, It creates a virtual DJ at my house. 
           Essentially, anyone who connects to my WiFi can play any song in the <strong><a href="https://www.deezer.com/en/">Deezer</a></strong> library on a stereo at my house! I wrote a backend API in GO, and the entire frontend in React.</p>
           <p>I also created <a href='https://github.com/srwiseman/mywebsite'><strong> this website</strong></a> with React. It's pretty basic, but it was a fun little project. Each page is a component, the top bar is a component, and the sidebar on the left is a component. It uses a hash router to keep track of what's displayed. I package it as a single .js bundle using <strong><a href="https://webpack.js.org/">webpack</a></strong>.</p>
           <p>Lastly, I'm developing a virtual machine manager at work. It enables our users to create/delete/manage VMs. The cool part is that you can create a VM pre-loaded with any version of our software, with any database restored on it!

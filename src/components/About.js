@@ -9,6 +9,7 @@ class About extends Component {
 
   componentDidMount(){
     this.props.toggleIcon('fas fa-user topicon');
+    document.body.style.backgroundColor = '#FFFFFF';
 
   }
 
@@ -37,6 +38,14 @@ class About extends Component {
              <a className="fade-in-delay-4" href='https://www.instagram.com/stephenrwiseman/'> <i class="fab fa-instagram fa-2x"></i></a> 
              <a className="fade-in-delay-4" href='https://www.linkedin.com/in/stephen-wiseman-b9120866/'> <i class="fab fa-linkedin fa-2x"></i></a></p>
           </p>
+      </div>
+      <div className="item-container">
+      <div className="item">
+      </div>
+      <div className="item2">
+      </div>
+      <div className="item3">
+      </div>
       </div>
       </div>
     );

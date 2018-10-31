@@ -13,6 +13,7 @@ class Skills extends Component {
 
   componentDidMount(){
     this.props.toggleIcon('fas fa-star topicon');
+    document.body.style.backgroundColor = '#E0E0E0';
 
   }
 

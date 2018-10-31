@@ -52,7 +52,6 @@ class App extends Component {
       <Menu width={ '40vh' } isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)} style={menuStyle}>
       <h2 style={{color: "#DDD"}}>Steve Wiseman</h2>
       <hr style={{borderColor: "#DDD"}}/>
-        <Link to="/about" onClick={() => this.closeMenu()} id="about" className="menu-item"><i className="fas fa-user"></i><span>About</span></Link>
         <Link to="/skills"  onClick={() => this.closeMenu()} id="skills" className="menu-item" href="/skills"><i class="fas fa-star"></i><span>Skills</span></Link>
         <Link to="/resume"  onClick={() => this.closeMenu()} id="resume" className="menu-item" href="/about"><i className="fas fa-list-alt"></i><span>Career</span></Link>
         <Link to="/projects"  onClick={() => this.closeMenu()} id="projects" className="menu-item" href="/about"><i class="fas fa-wrench"></i><span>Projects</span></Link>
@@ -81,14 +80,6 @@ class App extends Component {
       </div>
       </div>
       </HashRouter>
-      <div className="item-container">
-      <div className="item">
-      </div>
-      <div className="item2">
-      </div>
-      <div className="item3">
-      </div>
-      </div>
       </div>
     );
   }

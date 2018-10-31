@@ -8,7 +8,8 @@ class Resume extends Component {
   }
 
   componentDidMount(){
-    this.props.toggleIcon('fas fa-list-alt topicon')
+    this.props.toggleIcon('fas fa-list-alt topicon');
+    document.body.style.backgroundColor = '#E0E0E0';
 
   }
 
